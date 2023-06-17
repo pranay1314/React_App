@@ -11,6 +11,7 @@ phases:
       - npm install
   build:
     commands:
+      - echo "Build phase"
       - ng build --prod
     finally:
       - echo final block echo
@@ -18,4 +19,4 @@ phases:
 artifacts:
   base-directory: React_App/src/
   files:
-    - '*/'
+     - '**/*'
