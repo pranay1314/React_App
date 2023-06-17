@@ -17,6 +17,6 @@ phases:
       - echo final block echo
 
 artifacts:
-  base-directory: React_App/src/
+  base-directory: src/buildspec.yml
   files:
      - '**/*'
