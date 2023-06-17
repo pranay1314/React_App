@@ -1,0 +1,20 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18
+    commands:
+      - echo "Installing Node.js version 18 ..."
+      - npm cache clean --force
+      - npm install
+      
+  build:
+    commands:
+      - echo "Building React project..."
+      - npm run build
+      
+artifacts:
+  base-directory: dist/my-angular-project
+  files:
+    - '*/'
