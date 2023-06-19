@@ -20,4 +20,5 @@ artifacts:
   base-directory: dist/React_App
   files:
     - '*/'
+  
 
