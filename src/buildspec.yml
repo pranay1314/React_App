@@ -17,7 +17,7 @@ phases:
       - echo final block echo
 
 artifacts:
-  base-directory: my-react-app/build
+  base-directory: stat/www.test.safecamsfleet.com
   files:
     - '*/'
   
