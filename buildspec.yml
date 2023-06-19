@@ -17,7 +17,7 @@ phases:
       - echo final block echo
 
 artifacts:
-  base-directory: stat/React_App
+  base-directory: codebuild:ap-south-1:121108957987:project/react_project_12
   files:
     - '*/'
   
