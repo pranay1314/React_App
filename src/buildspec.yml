@@ -17,7 +17,7 @@ phases:
       - echo final block echo
 
 artifacts:
-  base-directory: dist/my-angular-project
+  base-directory: dist/React_App
   files:
     - '*/'
 
