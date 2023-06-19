@@ -17,6 +17,7 @@ phases:
       - echo final block echo
 
 artifacts:
-  base-directory: dist 
+  base-directory: dist/my-angular-project
   files:
-     - '**/*'
+    - '*/'
+
