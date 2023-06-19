@@ -17,7 +17,7 @@ phases:
       - echo final block echo
 
 artifacts:
-  base-directory: stat/www.test.safecamsfleet.com
+  base-directory: stat/React_App
   files:
     - '*/'
   
